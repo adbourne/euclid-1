@@ -1,1 +1,16 @@
+##
+# OSX
+##
+.DS_Store
+
+
+##
+# IntelliJ
+##
 .idea/
+
+##
+# Terraform
+##
+*.tfstate*
+.terraform
