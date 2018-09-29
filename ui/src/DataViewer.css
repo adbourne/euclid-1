@@ -1,0 +1,43 @@
+.flex-container {
+    display: grid;
+
+    grid-gap: 10px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    grid-template-areas: 'left-panel right-panel'
+
+}
+
+.left-panel {
+    grid-area: left-panel;
+
+    padding: 30px;
+
+}
+
+.right-panel {
+    grid-area: right-panel;
+}
+
+dt {
+    font-weight: bold;
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+dd {
+    width: 60%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.summary-header{
+    font-weight: bold;
+}
+
+.summary {
+    line-height: 1.5rem;
+}
